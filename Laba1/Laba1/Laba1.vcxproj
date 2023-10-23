@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="books.cpp" />
+    <ClCompile Include="fantastic.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="novel.cpp" />
+    <ClCompile Include="poet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="books.h" />
+    <ClInclude Include="fantastic.h" />
+    <ClInclude Include="keeper.h" />
+    <ClInclude Include="novel.h" />
+    <ClInclude Include="poet.h" />
+    <ClInclude Include="vybor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
